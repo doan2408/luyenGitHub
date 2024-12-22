@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="luyenGit:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>luyenGit</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="luyenGit-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="luyenGit:war exploded" />
+    </root>
+  </artifact>
+</component>
